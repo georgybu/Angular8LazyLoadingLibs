@@ -1,3 +1,14 @@
+# Splitting 3rd party libs with Angular 8
+
+Build log
+![modules](docs/modules.png?raw=true 'modules')
+
+Webpack-bundle-analyzer
+![bundle-analyze](docs/bundle-analyze.png?raw=true 'bundle-analyze')
+
+Usage example
+![usage.gif](docs/usage.gif?raw=true 'usage')
+
 # MyLazyProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.

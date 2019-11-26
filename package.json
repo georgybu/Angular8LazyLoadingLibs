@@ -3,14 +3,19 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --port=4300",
+    "build": "ng build --prod --statsJson=true",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "analyze-bundle": "npx webpack-bundle-analyzer ./dist/myLazyProject/stats-es2015.json"
   },
   "private": true,
   "dependencies": {
+    "@ag-grid-community/all-modules": "^22.0.0",
+    "@ag-grid-enterprise/all-modules": "^22.0.0",
+    "@agm/core": "^1.1.0",
+    "@amcharts/amcharts4": "^4.7.10",
     "@angular/animations": "~8.2.13",
     "@angular/common": "~8.2.13",
     "@angular/compiler": "~8.2.13",
